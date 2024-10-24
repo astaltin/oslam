@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  font-size: 1.125rem;
+}
+
 body {
   font-family: "Geist Sans";
 }
