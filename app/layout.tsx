@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import "@fontsource/geist-sans";
 import "./globals.css";
 
-export const metadata: Metadata = { title: "OSLAM" };
+export const metadata: Metadata = { title: "OSLAM Billing" };
 
 export default function RootLayout({
   children,
