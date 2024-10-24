@@ -1,0 +1,13 @@
+{
+  "overrides": [
+    {
+      "files": ["./app/**/*.tsx"],
+      "options": {
+        "printWidth": 100,
+        "quoteProps": "consistent",
+        "semi": false,
+        "singleQuote": true
+      }
+    }
+  ]
+}
