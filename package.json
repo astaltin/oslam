@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "shadcn-ui": "pnpx shadcn@2.*"
   },
   "dependencies": {
     "@fontsource/geist-sans": "^5.1.0",
