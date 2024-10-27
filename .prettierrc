@@ -1,7 +1,7 @@
 {
   "overrides": [
     {
-      "files": ["./app/**/*.tsx"],
+      "files": ["./app/**/*.tsx", "./components/**/*.tsx"],
       "options": {
         "printWidth": 100,
         "quoteProps": "consistent",
