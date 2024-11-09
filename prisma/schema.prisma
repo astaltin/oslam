@@ -1,9 +1,3 @@
-// This is your Prisma schema file,
-// learn more about it in the docs: https://pris.ly/d/prisma-schema
-
-// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
-// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
-
 generator client {
   provider = "prisma-client-js"
 }
@@ -11,4 +5,253 @@ generator client {
 datasource db {
   provider = "mongodb"
   url      = env("DATABASE_URL")
+}
+
+///////////////////////////
+// Core Entities
+///////////////////////////
+
+model Patient {
+  id        String    @id @default(auto()) @map("_id") @db.ObjectId
+  patientId Int       @unique @map("patient_id")
+  name      String
+  gender    String
+  age       Int
+  address   String
+  createdAt DateTime  @default(now()) @map("created_at")
+  updatedAt DateTime  @default(now()) @updatedAt @map("updated_at")
+  deletedAt DateTime? @map("deleted_at")
+
+  Billing Billing[]
+
+  @@map("patients")
+}
+
+model Billing {
+  id              String    @id @default(auto()) @map("_id") @db.ObjectId
+  billingId       Int       @unique @map("billing_id")
+  patientId       Int       @map("patient_id")
+  referenceNumber Int       @unique @map("reference_number")
+  totalBill       String    @map("total_bill")
+  discountedBill  String    @map("discounted_bill")
+  amountPaid      String    @map("amount_paid")
+  balance         String
+  createdAt       DateTime  @default(now()) @map("created_at")
+  updatedAt       DateTime  @default(now()) @updatedAt @map("updated_at")
+  deletedAt       DateTime? @map("deleted_at")
+
+  Patient                  Patient                    @relation(fields: [patientId], references: [patientId])
+  BillingService           BillingService[]
+  BillingDiscount          BillingDiscount[]
+  Payment                  Payment[]
+  BillingAssistanceProgram BillingAssistanceProgram[]
+
+  @@map("billings")
+}
+
+///////////////////////////
+// Relationships (Associations)
+///////////////////////////
+
+model BillingService {
+  id               String   @id @default(auto()) @map("_id") @db.ObjectId
+  billingServiceId Int      @unique @map("billing_service_id")
+  billingId        Int      @map("billing_id")
+  serviceId        Int      @map("service_id")
+  quantity         Int      @default(1)
+  totalCost        String   @map("total_cost")
+  createdAt        DateTime @default(now()) @map("created_at")
+
+  ServiceMedication    ServiceMedication[]
+  ServiceMedicalSupply ServiceMedicalSupply[]
+
+  Billing Billing @relation(fields: [billingId], references: [billingId])
+  Service Service @relation(fields: [serviceId], references: [serviceId])
+
+  @@map("billing_services")
+}
+
+model BillingDiscount {
+  id                String   @id @default(auto()) @map("_id") @db.ObjectId
+  billingDiscountId Int      @unique @map("billing_discount_id")
+  billingId         Int      @map("billing_id")
+  discountId        Int      @map("discount_id")
+  amount            String
+  createdAt         DateTime @default(now()) @map("created_at")
+
+  Billing  Billing  @relation(fields: [billingId], references: [billingId])
+  Discount Discount @relation(fields: [discountId], references: [discountId])
+
+  @@map("billing_discounts")
+}
+
+model Payment {
+  id                    String    @id @default(auto()) @map("_id") @db.ObjectId
+  paymentId             Int       @unique @map("payment_id")
+  billingId             Int       @map("billing_id")
+  amountPaid            String    @map("amount_paid")
+  officialReceiptNumber Int       @unique @map("official_receipt_number")
+  createdAt             DateTime  @default(now()) @map("created_at")
+  updatedAt             DateTime  @default(now()) @updatedAt @map("updated_at")
+  deletedAt             DateTime? @map("deleted_at")
+
+  Billing Billing @relation(fields: [billingId], references: [billingId])
+
+  @@map("payments")
+}
+
+model BillingAssistanceProgram {
+  id                         String   @id @default(auto()) @map("_id") @db.ObjectId
+  billingAssistanceProgramId Int      @unique @map("billing_assistance_program_id")
+  billingId                  Int      @map("billing_id")
+  assistanceProgramId        Int      @map("assistance_program_id")
+  amountContributed          String   @map("amount_contributed")
+  createdAt                  DateTime @default(now()) @map("created_at")
+
+  Billing           Billing           @relation(fields: [billingId], references: [billingId])
+  AssistanceProgram AssistanceProgram @relation(fields: [assistanceProgramId], references: [assistanceProgramId])
+
+  @@map("billing_assistance_programs")
+}
+
+///////////////////////////
+// Utility Models
+///////////////////////////
+
+model Unit {
+  id     String @id @default(auto()) @map("_id") @db.ObjectId
+  unitId Int    @unique @map("unit_id")
+  // a unit must be unique.
+  type   String @unique
+
+  Medication    Medication[]
+  MedicalSupply MedicalSupply[]
+
+  @@map("units")
+}
+
+model Medication {
+  id           String  @id @default(auto()) @map("_id") @db.ObjectId
+  medicationId Int     @unique @map("medication_id")
+  // a medicine must be unique.
+  description  String  @unique
+  brandName    String? @map("brand_name")
+  unitId       Int     @map("unit_id")
+  price        String
+
+  ServiceMedication ServiceMedication[]
+
+  Unit Unit @relation(fields: [unitId], references: [unitId])
+
+  @@map("medications")
+}
+
+model ServiceMedication {
+  id                  String   @id @default(auto()) @map("_id") @db.ObjectId
+  serviceMedicationId Int      @unique @map("service_medication_id")
+  billingServiceId    Int      @map("billing_service_id")
+  medicationId        Int      @map("medication_id")
+  quantity            Int
+  totalAmount         String   @map("total_amount")
+  createdAt           DateTime @default(now()) @map("created_at")
+
+  BillingService BillingService @relation(fields: [billingServiceId], references: [billingServiceId])
+  Medication     Medication     @relation(fields: [medicationId], references: [medicationId])
+
+  @@map("service_medications")
+}
+
+model MedicalSupply {
+  id              String @id @default(auto()) @map("_id") @db.ObjectId
+  medicalSupplyId Int    @unique @map("medical_supply_id")
+  // a medical supply must be unique.
+  description     String @unique
+  unitId          Int    @map("unit_id")
+  price           String
+
+  ServiceMedicalSupply ServiceMedicalSupply[]
+
+  Unit Unit @relation(fields: [unitId], references: [unitId])
+
+  @@map("medical_supplies")
+}
+
+model ServiceMedicalSupply {
+  id                     String   @id @default(auto()) @map("_id") @db.ObjectId
+  serviceMedicalSupplyId Int      @unique @map("service_medical_supply_id")
+  billingServiceId       Int      @map("billing_service_id")
+  medicalSupplyId        Int      @map("medical_supply_id")
+  quantity               Int
+  totalAmount            String   @map("total_amount")
+  createdAt              DateTime @default(now()) @map("created_at")
+
+  BillingService BillingService @relation(fields: [billingServiceId], references: [billingServiceId])
+  MedicalSupply  MedicalSupply  @relation(fields: [medicalSupplyId], references: [medicalSupplyId])
+
+  @@map("service_medical_supplies")
+}
+
+///////////////////////////
+// Service Category Models
+///////////////////////////
+
+model ServiceCategory {
+  id                String @id @default(auto()) @map("_id") @db.ObjectId
+  // a service category must be unique.
+  serviceCategoryId Int    @unique @map("service_category_id")
+  name              String @unique
+
+  Service Service?
+
+  @@map("service_categories")
+}
+
+///////////////////////////
+// Discount Models
+///////////////////////////
+
+model Discount {
+  id         String @id @default(auto()) @map("_id") @db.ObjectId
+  discountId Int    @unique @map("discount_id")
+  type       String
+  percentage Float  @db.Double
+
+  BillingDiscount BillingDiscount[]
+
+  @@map("discounts")
+}
+
+///////////////////////////
+// Assistance Program Models
+///////////////////////////
+
+model AssistanceProgram {
+  id                  String @id @default(auto()) @map("_id") @db.ObjectId
+  assistanceProgramId Int    @unique @map("assistance_program_id")
+  name                String
+
+  BillingAssistanceProgram BillingAssistanceProgram[]
+
+  @@map("assistance_programs")
+}
+
+///////////////////////////
+// Service Models
+///////////////////////////
+
+model Service {
+  id                String    @id @default(auto()) @map("_id") @db.ObjectId
+  serviceId         Int       @unique @map("service_id")
+  type              String
+  serviceCategoryId Int       @unique @map("service_category_id")
+  fee               String
+  createdAt         DateTime  @default(now()) @map("created_at")
+  updatedAt         DateTime  @default(now()) @updatedAt @map("updated_at")
+  deletedAt         DateTime? @map("deleted_at")
+
+  BillingService BillingService[]
+
+  ServiceCategory ServiceCategory @relation(fields: [serviceCategoryId], references: [serviceCategoryId])
+
+  @@map("services")
 }
