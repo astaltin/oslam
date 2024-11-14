@@ -2,6 +2,16 @@ generator client {
   provider = "prisma-client-js"
 }
 
+// https://www.prisma.io/docs/orm/prisma-schema/overview/generators
+//
+// Adds support for Strongly Typed Json fields for all databases. It goes on
+// prisma-client-js output and changes the json fields to match the type you
+// provide. Helping with code generators, intellisense and much more. All of
+// that without affecting any runtime code.
+generator json {
+  provider = "prisma-json-types-generator"
+}
+
 datasource db {
   provider = "mongodb"
   url      = env("DATABASE_URL")
