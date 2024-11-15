@@ -9,7 +9,15 @@
     "lint": "next lint",
     "shadcn-ui": "pnpx shadcn@2.*",
     "db:generate prod": "dotenv -e .env.production prisma generate",
-    "db:generate dev": "dotenv -e .env.development prisma generate --allow-no-models"
+    "db:migrate prod": "dotenv -e .env.production prisma db push",
+    "db:migrate-fresh prod": "pnpm \"db:migrate-reset prod\" && pnpm \"db:migrate prod\" && pnpm \"db:seed prod\"",
+    "db:migrate-reset prod": "dotenv -e .env.production tsx prisma/migrate-reset.mts",
+    "db:seed prod": "dotenv -e .env.production tsx prisma/seeder.mts",
+    "db:generate dev": "dotenv -e .env.development prisma generate --allow-no-models",
+    "db:migrate dev": "dotenv -e .env.development prisma db push",
+    "db:migrate-fresh dev": "pnpm \"db:migrate-reset dev\" && pnpm \"db:migrate dev\" && pnpm \"db:seed dev\"",
+    "db:migrate-reset dev": "dotenv -e .env.development tsx prisma/migrate-reset.mts",
+    "db:seed dev": "dotenv -e .env.development tsx prisma/seeder.mts"
   },
   "dependencies": {
     "@fontsource/geist-sans": "^5.1.0",
@@ -34,6 +42,7 @@
   "devDependencies": {
     "@faker-js/faker": "^9.2.0",
     "@types/node": "^20",
+    "@types/pluralize": "^0.0.33",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "dotenv-cli": "^7.4.2",
@@ -43,6 +52,7 @@
     "prisma": "^5.21.1",
     "prisma-json-types-generator": "^3.1.1",
     "tailwindcss": "^3.4.1",
+    "tsx": "^4.19.2",
     "typescript": "^5"
   }
 }
