@@ -27,6 +27,38 @@ const prisma = new PrismaClient().$extends({
           handlePrismaError(error, collName, operation);
         }
       },
+      async createMany({ args, query, model, operation }) {
+        const collName = snakeCase(pluralize(model));
+        const seqId = `${camelCase(model)}Id`;
+
+        const data = args.data as DataValue[];
+        const dataItemsCount = data.length;
+
+        try {
+          const docs = await prisma.$transaction(async (prisma) => {
+            const counter = await getNextSequenceValue(
+              collName,
+              prisma,
+              dataItemsCount,
+            );
+
+            let currentSeq = counter - dataItemsCount + 1;
+
+            const updatedData = data.map((item) => {
+              item[seqId] = currentSeq;
+              currentSeq += 1;
+
+              return item;
+            });
+
+            return query({ data: updatedData });
+          });
+
+          return docs;
+        } catch (error) {
+          handlePrismaError(error, collName, operation);
+        }
+      },
     },
   },
 });
