@@ -10,13 +10,23 @@ const isDevelopment = process.env.NODE_ENV === "development";
 
 export async function middleware(req: NextRequest) {
   try {
-    if (req.nextUrl.pathname.startsWith("/api/patients")) {
-      if (req.method === "POST") {
+    const patientsRouteRegex = /^\/api\/patients(?:\/([1-9][0-9]*))?$/;
+    const isPatientsRouteMatched =
+      req.nextUrl.pathname.match(patientsRouteRegex);
+
+    if (isPatientsRouteMatched) {
+      const patientId = isPatientsRouteMatched[1];
+
+      if (patientId && req.method === "PATCH") {
         const data = await req.json();
-        // validates the patient data. Throws an error if fails
         patientSchema.parse(data);
 
         return NextResponse.next();
+      }
+
+      if (req.method === "POST") {
+        const data = await req.json();
+        patientSchema.parse(data);
       }
     }
 
@@ -41,5 +51,5 @@ export async function middleware(req: NextRequest) {
 }
 
 export const config: MiddlewareConfig = {
-  matcher: ["/api/patients"],
+  matcher: ["/api/patients", "/api/patients/:path*"],
 };
