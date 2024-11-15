@@ -109,13 +109,24 @@ try {
       .mul(discountAsDecimal)
       .toString();
 
-    await prisma.billingDiscount.create({
+    const billingDiscount = await prisma.billingDiscount.create({
       data: {
         billingId: billing.billingId,
         discountId: discount.discountId,
         amount: discountAmount,
       },
     });
+
+    // TODO: if possible, create other seeders as well for the other tables.
+
+    // const payment = await prisma.payment.create({
+    //   data: {},
+    // });
+
+    // const billingAssistanceProgram =
+    //   await prisma.billingAssistanceProgram.create({
+    //     data: {},
+    //   });
   });
 } catch (error) {
   console.error("An error occured while generating fake data:", error);
