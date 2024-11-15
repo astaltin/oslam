@@ -5,7 +5,7 @@ import { randomInt } from "node:crypto";
 import { readdir, readFile } from "node:fs/promises";
 import path from "node:path";
 import pluralize from "pluralize";
-import { prisma } from "../lib/prisma.mts";
+import { prisma } from "../lib/prisma";
 
 const dataDir = path.join(import.meta.dirname, "data");
 const models = (await readdir(dataDir)).filter((path) => path.endsWith("json"));
