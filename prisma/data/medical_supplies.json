@@ -1,0 +1,772 @@
+[
+  {
+    "description": "Adult ID Bracelet 100's",
+    "unit_id": 8,
+    "price": "11.00"
+  },
+  {
+    "description": "Airway Adjuncts Nasopharyngeal",
+    "unit_id": 8,
+    "price": "350.00"
+  },
+  {
+    "description": "Airway Adjuncts Oropharyngeal",
+    "unit_id": 8,
+    "price": "490.00"
+  },
+  {
+    "description": "Arm Sling, Small",
+    "unit_id": 8,
+    "price": "94.00"
+  },
+  {
+    "description": "Arm Sling, Medium",
+    "unit_id": 8,
+    "price": "94.00"
+  },
+  {
+    "description": "Arm Sling, Large",
+    "unit_id": 8,
+    "price": "94.00"
+  },
+  {
+    "description": "Bandage 2X5 Elastic",
+    "unit_id": 10,
+    "price": "42.00"
+  },
+  {
+    "description": "Bandage 3X5 Elastic",
+    "unit_id": 10,
+    "price": "62.00"
+  },
+  {
+    "description": "Bandage 4X5 Elastic",
+    "unit_id": 10,
+    "price": "76.00"
+  },
+  {
+    "description": "Bandage 5X5 Elastic",
+    "unit_id": 10,
+    "price": "128.80"
+  },
+  {
+    "description": "Bandage 6.5x5 Elastic",
+    "unit_id": 10,
+    "price": "164.50"
+  },
+  {
+    "description": "Bandage 7X5 Elastic",
+    "unit_id": 10,
+    "price": "101.00"
+  },
+  {
+    "description": "Bandage 15 x 5.5 , elastic",
+    "unit_id": 10,
+    "price": "101.00"
+  },
+  {
+    "description": "Bed Pan",
+    "unit_id": 8,
+    "price": "476.00"
+  },
+  {
+    "description": "Blade Surgical No. 10 Individual Pack, 100's Stainless Steel",
+    "unit_id": 3,
+    "price": "9.00"
+  },
+  {
+    "description": "Blade Surgical No. 11 Individual Pack, 100's Stainless Steel",
+    "unit_id": 3,
+    "price": "9.00"
+  },
+  {
+    "description": "Blade Surgical No. 15 Individual Pack, 100's Stainless Steel",
+    "unit_id": 3,
+    "price": "9.00"
+  },
+  {
+    "description": "Blade Surgical No. 20 Individual Pack, 100's Stainless Steel",
+    "unit_id": 3,
+    "price": "9.00"
+  },
+  {
+    "description": "Blade Surgical No. 22 Individual Pack, 100's Stainless Steel",
+    "unit_id": 3,
+    "price": "9.00"
+  },
+  {
+    "description": "Cadaver Bag Large",
+    "unit_id": 8,
+    "price": "2100.00"
+  },
+  {
+    "description": "Catheter Suction Fr-5",
+    "unit_id": 8,
+    "price": "56.00"
+  },
+  {
+    "description": "Catheter Suction F-8, Sterile, Plastic",
+    "unit_id": 8,
+    "price": "56.00"
+  },
+  {
+    "description": "Catheter Suction F-10, Sterile, Plastic",
+    "unit_id": 8,
+    "price": "31.00"
+  },
+  {
+    "description": "Catheter Suction F-12, Sterile, Plastic",
+    "unit_id": 8,
+    "price": "42.00"
+  },
+  {
+    "description": "Catheter Suction F-14, Sterile, Plastic",
+    "unit_id": 8,
+    "price": "56.00"
+  },
+  {
+    "description": "Catheter Suction F-16, Sterile, Plastic",
+    "unit_id": 8,
+    "price": "56.00"
+  },
+  {
+    "description": "Catheter Suction F-18, Sterile, Plastic",
+    "unit_id": 8,
+    "price": "56.00"
+  },
+  {
+    "description": "Cervical Collar Small",
+    "unit_id": 8,
+    "price": "2072.00"
+  },
+  {
+    "description": "Cervical Collar Medium",
+    "unit_id": 8,
+    "price": "2072.00"
+  },
+  {
+    "description": "Cervical Collar Large",
+    "unit_id": 8,
+    "price": "2072.00"
+  },
+  {
+    "description": "Chest Tube Fr-28 (Thoracic Catheter)",
+    "unit_id": 8,
+    "price": "1148.00"
+  },
+  {
+    "description": "Chest Tube Fr-32 (Thoracic Catheter)",
+    "unit_id": 8,
+    "price": "1148.00"
+  },
+  {
+    "description": "Chest Tube Fr-36 (Thoracic Catheter)",
+    "unit_id": 8,
+    "price": "1148.00"
+  },
+  {
+    "description": "Chest Tube Ft-38, (Thoracic Catheter)",
+    "unit_id": 8,
+    "price": "3430.00"
+  },
+  {
+    "description": "Chromic 1-0 Curved Automatic Box of 12",
+    "unit_id": 3,
+    "price": "149.50"
+  },
+  {
+    "description": "Chromic 2-0 Curved Automatic Box of 12",
+    "unit_id": 3,
+    "price": "149.50"
+  },
+  {
+    "description": "Chromic 3-0 Curved Automatic Box of 12",
+    "unit_id": 3,
+    "price": "149.50"
+  },
+  {
+    "description": "Clear Plastic Surgical Tape 1\" 12's",
+    "unit_id": 3,
+    "price": "210.00"
+  },
+  {
+    "description": "Diaper Adult, Disposable 10's Extra Large",
+    "unit_id": 6,
+    "price": "76.00"
+  },
+  {
+    "description": "Diaper Adult, Disposable 10's Large",
+    "unit_id": 6,
+    "price": "45.00"
+  },
+  {
+    "description": "Diaper Adult, Disposable 10's Medium",
+    "unit_id": 6,
+    "price": "45.00"
+  },
+  {
+    "description": "Disposable Face Mask with Earloop 50's",
+    "unit_id": 3,
+    "price": "3.00"
+  },
+  {
+    "description": "Disposable Medicine Cup 30ml, 100's",
+    "unit_id": 9,
+    "price": "8.00"
+  },
+  {
+    "description": "Disposable Needle G18 100's",
+    "unit_id": 3,
+    "price": "5.00"
+  },
+  {
+    "description": "Disposable Needle G21 100's",
+    "unit_id": 3,
+    "price": "8.41"
+  },
+  {
+    "description": "Disposable Needle G23 100's",
+    "unit_id": 3,
+    "price": "6.00"
+  },
+  {
+    "description": "Disposable Needle G25 100's",
+    "unit_id": 3,
+    "price": "10.00"
+  },
+  {
+    "description": "Disposable Needle G27 100's",
+    "unit_id": 3,
+    "price": "10.00"
+  },
+  {
+    "description": "ECG Electrodes Adult 50's",
+    "unit_id": 6,
+    "price": "22.00"
+  },
+  {
+    "description": "Elbow Length Powder Free Surgical Gloves 7.0",
+    "unit_id": 7,
+    "price": "140.00"
+  },
+  {
+    "description": "Elbow Length Powder Free Surgical Gloves 7.5",
+    "unit_id": 7,
+    "price": "140.00"
+  },
+  {
+    "description": "Electrodes, ECG Suction Type - Reusable",
+    "unit_id": 8,
+    "price": "1176.00"
+  },
+  {
+    "description": "Endo Tracheal Tube, Size 2.5, Clear, Plastic, Sterile Plain, Uncuffed",
+    "unit_id": 8,
+    "price": "112.00"
+  },
+  {
+    "description": "Endo Tracheal Tube, Size 3.0, Clear, Plastic, Sterile Plain, Uncuffed",
+    "unit_id": 8,
+    "price": "112.00"
+  },
+  {
+    "description": "Endo Tracheal Tube, Size 3.5, Clear, Plastic, Sterile Plain, Uncuffed",
+    "unit_id": 8,
+    "price": "112.00"
+  },
+  {
+    "description": "Endo Tracheal Tube, Size 4.0, Clear, Plastic, Sterile Plain, Uncuffed",
+    "unit_id": 8,
+    "price": "112.00"
+  },
+  {
+    "description": "Endo Tracheal Tube, Size 4.5, Clear, Plastic, Sterile Plain, Uncuffed",
+    "unit_id": 8,
+    "price": "112.00"
+  },
+  {
+    "description": "Endo Tracheal Tube, Size 5.0, Clear, Plastic, Sterile Plain, Uncuffed",
+    "unit_id": 8,
+    "price": "112.00"
+  },
+  {
+    "description": "Endo Tracheal Tube, Size 5.5, Clear Plastic, Sterile w/ Connector & High Volume Low Pressure Cuff",
+    "unit_id": 8,
+    "price": "112.00"
+  },
+  {
+    "description": "Endo Tracheal Tube, Size 6.0, Clear, Plastic, Sterile w/ Connector & High Volume Low Pressure Cuff",
+    "unit_id": 8,
+    "price": "112.00"
+  },
+  {
+    "description": "Endo Tracheal Tube, Size 6.5, Clear Plastic, Sterile w/ Connector & High Volume Low Pressure Cuff",
+    "unit_id": 8,
+    "price": "112.00"
+  },
+  {
+    "description": "Endo Tracheal Tube, Size 7.0, Clear Plastic, Sterile w/ Connector & High Volume Low Pressure Cuff",
+    "unit_id": 8,
+    "price": "112.00"
+  },
+  {
+    "description": "Endo Tracheal Tube, Size 7.5, Clear Plastic, Sterile w/ Connector & High Volume Low Pressure Cuff",
+    "unit_id": 8,
+    "price": "112.00"
+  },
+  {
+    "description": "Endo Tracheal Tube, Size 8.0, Clear, Plastic, Sterile w/ Connector & High Volume Low Pressure Cuff",
+    "unit_id": 8,
+    "price": "122.00"
+  },
+  {
+    "description": "Endo Tracheal Tube, Size 8.5, Clear, Plastic, Sterile w/ Connector & High Volume Low Pressure Cuff",
+    "unit_id": 8,
+    "price": "122.00"
+  },
+  {
+    "description": "Faceshield, Direct Splash Protection",
+    "unit_id": 8,
+    "price": "32.50"
+  },
+  {
+    "description": "Foley Catheter F8",
+    "unit_id": 8,
+    "price": "112.00"
+  },
+  {
+    "description": "Foley Catheter F10",
+    "unit_id": 8,
+    "price": "112.00"
+  },
+  {
+    "description": "Foley Catheter F14",
+    "unit_id": 8,
+    "price": "112.00"
+  },
+  {
+    "description": "Foley Catheter F16",
+    "unit_id": 8,
+    "price": "112.00"
+  },
+  {
+    "description": "Foley Catheter F18",
+    "unit_id": 8,
+    "price": "112.00"
+  },
+  {
+    "description": "Gauze Bandage 3x10 12's",
+    "unit_id": 3,
+    "price": "23.50"
+  },
+  {
+    "description": "Gauze Bandage 4x10 12s",
+    "unit_id": 10,
+    "price": "35.00"
+  },
+  {
+    "description": "Gauze Bandage Roll",
+    "unit_id": 10,
+    "price": "2660.00"
+  },
+  {
+    "description": "Gloves, Medical, Nitrile, Powder Free 100's Small",
+    "unit_id": 3,
+    "price": "6.50"
+  },
+  {
+    "description": "Gloves, Medical, Nitrile, Powder Free 100's Medium",
+    "unit_id": 3,
+    "price": "6.50"
+  },
+  {
+    "description": "Gloves, Medical, Nitrile, Powder Free 100's Large",
+    "unit_id": 3,
+    "price": "6.50"
+  },
+  {
+    "description": "Gloves, Surgical, hypoallergenic, anatomically shaped, size 6.0 Powder Free",
+    "unit_id": 3,
+    "price": "34.00"
+  },
+  {
+    "description": "Gloves, Surgical, hypoallergenic, anatomically shaped, size 6.5 Powder Free",
+    "unit_id": 3,
+    "price": "34.00"
+  },
+  {
+    "description": "Gloves, Surgical, hypoallergenic, anatomically shaped, size 7.0 Powder Free",
+    "unit_id": 3,
+    "price": "34.00"
+  },
+  {
+    "description": "Gloves, Surgical, hypoallergenic, anatomically shaped, size 7.5 Powder Free",
+    "unit_id": 3,
+    "price": "34.00"
+  },
+  {
+    "description": "Gloves, Surgical, hypoallergenic, anatomically shaped, size 8.0 Powder Free",
+    "unit_id": 3,
+    "price": "34.00"
+  },
+  {
+    "description": "Heparin Lock",
+    "unit_id": 8,
+    "price": "21.00"
+  },
+  {
+    "description": "Intubation tube stylet Fr: 6 (Insyte)",
+    "unit_id": 8,
+    "price": "221.50"
+  },
+  {
+    "description": "Guide Wire (Stylet) Newborn FR-6",
+    "unit_id": 8,
+    "price": "221.50"
+  },
+  {
+    "description": "Intubation tube stylet Fr:10 (Insyte)",
+    "unit_id": 9,
+    "price": "221.50"
+  },
+  {
+    "description": "Guide Wire (Stylet) Pedia FR-10",
+    "unit_id": 8,
+    "price": "221.50"
+  },
+  {
+    "description": "Intubation tube stylet Fr:14 (Insyte)",
+    "unit_id": 8,
+    "price": "221.50"
+  },
+  {
+    "description": "Guide Wire (Stylet) Adult FR-14",
+    "unit_id": 9,
+    "price": "221.50"
+  },
+  {
+    "description": "Guide Wire (Stylet) Pedia Fr. 16",
+    "unit_id": 9,
+    "price": "221.50"
+  },
+  {
+    "description": "IV Cannula G18",
+    "unit_id": 8,
+    "price": "95.50"
+  },
+  {
+    "description": "IV Cannula G20",
+    "unit_id": 8,
+    "price": "95.50"
+  },
+  {
+    "description": "IV Cannula G22",
+    "unit_id": 8,
+    "price": "95.50"
+  },
+  {
+    "description": "IV Cannula G24",
+    "unit_id": 8,
+    "price": "95.50"
+  },
+  {
+    "description": "IV Cannula G26",
+    "unit_id": 8,
+    "price": "95.50"
+  },
+  {
+    "description": "IV Starter Set (Swab, Plaster, Tourniquet, Film Dressing with non- adherent pad)",
+    "unit_id": 8,
+    "price": "252.00"
+  },
+  {
+    "description": "KN95 Facemask",
+    "unit_id": 8,
+    "price": "22.50"
+  },
+  {
+    "description": "Laryngeal Mask airway #3",
+    "unit_id": 8,
+    "price": "3780.00"
+  },
+  {
+    "description": "Laryngeal Mask airway #4",
+    "unit_id": 8,
+    "price": "3780.00"
+  },
+  {
+    "description": "Laryngeal Mask airway #5",
+    "unit_id": 8,
+    "price": "3780.00"
+  },
+  {
+    "description": "Macroset (Infusion Set Adult) 25's",
+    "unit_id": 9,
+    "price": "84.00"
+  },
+  {
+    "description": "Medicine Dropper",
+    "unit_id": 9,
+    "price": "11.50"
+  },
+  {
+    "description": "Micropore Tape 1\"12's",
+    "unit_id": 3,
+    "price": "265.00"
+  },
+  {
+    "description": "Micropore Tape 1/2\"24's",
+    "unit_id": 3,
+    "price": "132.50"
+  },
+  {
+    "description": "Microset (Infusion Set Pedia) 25's",
+    "unit_id": 9,
+    "price": "69.00"
+  },
+  {
+    "description": "Nebulizer Kit Adult",
+    "unit_id": 8,
+    "price": "112.00"
+  },
+  {
+    "description": "Needle, 103-12 Suturing,cutting,stainless steel 12's",
+    "unit_id": 5,
+    "price": "152.00"
+  },
+  {
+    "description": "Needle, 103-14 Suturing, Cutting, Stainless Steel",
+    "unit_id": 5,
+    "price": "152.00"
+  },
+  {
+    "description": "Needle, 103-16 Suturing, Cutting, Stainless Steel",
+    "unit_id": 5,
+    "price": "152.00"
+  },
+  {
+    "description": "Needle, 103-18 Suturing,cutting,stainless steel",
+    "unit_id": 5,
+    "price": "152.00"
+  },
+  {
+    "description": "Newborn ID Bracelet Blue/Pink",
+    "unit_id": 9,
+    "price": "11.50"
+  },
+  {
+    "description": "NGT/Feeding Tube,FR.16 20cm, from Mark&Distal 4 Side Eyes Open Tip Silicone Type",
+    "unit_id": 8,
+    "price": "350.00"
+  },
+  {
+    "description": "NGT/Feeding Tube,FR.18 20cm, from Mark&Distal 4 Side Eeys Open Tip Silicone Type",
+    "unit_id": 8,
+    "price": "350.00"
+  },
+  {
+    "description": "O.S. 4 x 4 surgical,100’s,mesh 24 x 28,8-ply non-sterile, Gauze",
+    "unit_id": 6,
+    "price": "9.00"
+  },
+  {
+    "description": "Oral Airway S-1",
+    "unit_id": 8,
+    "price": "265.30"
+  },
+  {
+    "description": "Oral Airway s-3",
+    "unit_id": 8,
+    "price": "168.00"
+  },
+  {
+    "description": "Oral Airway s-4",
+    "unit_id": 8,
+    "price": "168.00"
+  },
+  {
+    "description": "Oral Airway s-5",
+    "unit_id": 8,
+    "price": "168.00"
+  },
+  {
+    "description": "Oxygen Cannula, Nasal Adult",
+    "unit_id": 8,
+    "price": "109.50"
+  },
+  {
+    "description": "Oxygen Cannula, Nasal Neonate",
+    "unit_id": 8,
+    "price": "151.50"
+  },
+  {
+    "description": "Oxygen Cannula, Nasal Pedia",
+    "unit_id": 8,
+    "price": "109.50"
+  },
+  {
+    "description": "Oxygen Mask, Adult Disp, Aerosol Mask",
+    "unit_id": 8,
+    "price": "137.50"
+  },
+  {
+    "description": "Aerosol Mask Adult",
+    "unit_id": 8,
+    "price": "137.50"
+  },
+  {
+    "description": "Oxygen Mask, Neonate disp, Aerosol mask",
+    "unit_id": 8,
+    "price": "165.50"
+  },
+  {
+    "description": "Oxygen Mask, Pedia disp, Aerosol mask",
+    "unit_id": 8,
+    "price": "137.50"
+  },
+  {
+    "description": "Aerosol Mask Pedia",
+    "unit_id": 8,
+    "price": "137.50"
+  },
+  {
+    "description": "Pedia ID Bracelet 100's",
+    "unit_id": 9,
+    "price": "11.50"
+  },
+  {
+    "description": "Plaster of Paris 4\" Longbone",
+    "unit_id": 9,
+    "price": "224.00"
+  },
+  {
+    "description": "Plaster of Paris 6\" Longbone",
+    "unit_id": 9,
+    "price": "294.00"
+  },
+  {
+    "description": "Scalf Vein Set G. 25 100'S (Butterfly)",
+    "unit_id": 3,
+    "price": "25.00"
+  },
+  {
+    "description": "Silk Black Braided, 2-0 22mm 1/2C Cutting Needle 12's",
+    "unit_id": 3,
+    "price": "52.25"
+  },
+  {
+    "description": "Silk Black Braided, 3-0 26mm 3/8C Cutting Needle 12's",
+    "unit_id": 3,
+    "price": "52.25"
+  },
+  {
+    "description": "Silk Black Braided, 5.0 with Cutting Needle 12's",
+    "unit_id": 3,
+    "price": "122.50"
+  },
+  {
+    "description": "Soluset/Volumetric Infusion Set 25's",
+    "unit_id": 9,
+    "price": "131.00"
+  },
+  {
+    "description": "Sterile Gauze Swab (NON STERILE)",
+    "unit_id": 8,
+    "price": "30.00"
+  },
+  {
+    "description": "Sterile Gauze Pads 4x4 100's",
+    "unit_id": 9,
+    "price": "20.00"
+  },
+  {
+    "description": "Sterile Gloves Large 50's",
+    "unit_id": 3,
+    "price": "71.21"
+  },
+  {
+    "description": "Sterile Tongue Depressor 100's",
+    "unit_id": 3,
+    "price": "5.00"
+  },
+  {
+    "description": "Tounge Depressor",
+    "unit_id": 8,
+    "price": "4.50"
+  },
+  {
+    "description": "Sterile Water for Injection 100ml",
+    "unit_id": 15,
+    "price": "168.00"
+  },
+  {
+    "description": "Syringe 50cc 25's",
+    "unit_id": 9,
+    "price": "428.60"
+  },
+  {
+    "description": "Syringe, 1 cc, with g:25 needle, sharp edge non-toxic, Luer lock 100’s",
+    "unit_id": 3,
+    "price": "6.00"
+  },
+  {
+    "description": "Syringe,3cc with G:23 Needle, Sharp Edge, Non-Toxic, Luer Lock 100's",
+    "unit_id": 3,
+    "price": "8.50"
+  },
+  {
+    "description": "Syringe, 5cc with G:23 Needle, Sharp Edge, Non-Toxic, Luer Lock 100's",
+    "unit_id": 3,
+    "price": "20.00"
+  },
+  {
+    "description": "Syringe, 10cc with Needle G:23, Non-Toxic Disposable Luer Lock 100's",
+    "unit_id": 3,
+    "price": "7.50"
+  },
+  {
+    "description": "Syringe, insulin ultra fine needle, luer lock 100's",
+    "unit_id": 3,
+    "price": "21.00"
+  },
+  {
+    "description": "Syringe, irrigating Asepto syringe",
+    "unit_id": 8,
+    "price": "137.50"
+  },
+  {
+    "description": "Asepto Bulb Syringe",
+    "unit_id": 8,
+    "price": "137.50"
+  },
+  {
+    "description": "Umbilical Cord Clamp Plastic 100's",
+    "unit_id": 8,
+    "price": "11.50"
+  },
+  {
+    "description": "Underpad, Large 5's",
+    "unit_id": 8,
+    "price": "42.00"
+  },
+  {
+    "description": "Urethral catheter",
+    "unit_id": 8,
+    "price": "104.00"
+  },
+  {
+    "description": "Urinal Male Plastic",
+    "unit_id": 8,
+    "price": "196.00"
+  },
+  {
+    "description": "Urine Bag Collector Pedia",
+    "unit_id": 9,
+    "price": "6.00"
+  },
+  {
+    "description": "Urine Bag, Adult",
+    "unit_id": 8,
+    "price": "49.00"
+  }
+]

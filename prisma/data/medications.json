@@ -1,0 +1,1304 @@
+[
+  {
+    "description": "Acetylcisteine 200mg",
+    "brand_name": null,
+    "unit_id": 11,
+    "price": "11.00"
+  },
+  {
+    "description": "Acetylcisteine 600mg 10's",
+    "brand_name": "Flucysteine 600",
+    "unit_id": 11,
+    "price": "23.50"
+  },
+  {
+    "description": "Acetylcisteine 600mg tab 20's",
+    "brand_name": "Fluimucil",
+    "unit_id": 13,
+    "price": "23.50"
+  },
+  {
+    "description": "Activated Charcoal 100g",
+    "brand_name": null,
+    "unit_id": 2,
+    "price": "15.50"
+  },
+  {
+    "description": "Adenosine 3mg/ml 2 ml",
+    "brand_name": "Tachyban",
+    "unit_id": 15,
+    "price": "216.34"
+  },
+  {
+    "description": "Aluminum Magnesium Syrup 60ml",
+    "brand_name": "Neutrasaph",
+    "unit_id": 2,
+    "price": "29.50"
+  },
+  {
+    "description": "Aluminum Magnesium Tab 200mg 100's",
+    "brand_name": "Zilgam",
+    "unit_id": 13,
+    "price": "1.25"
+  },
+  {
+    "description": "Amikacin 125mg/2ml vial",
+    "brand_name": "Eracin",
+    "unit_id": 15,
+    "price": "55.00"
+  },
+  {
+    "description": "Amiodarone 150mg/3ml amp 5's",
+    "brand_name": null,
+    "unit_id": 1,
+    "price": "299.00"
+  },
+  {
+    "description": "Amiodarone 200mg tab 90's",
+    "brand_name": "Triodone",
+    "unit_id": 13,
+    "price": "16.25"
+  },
+  {
+    "description": "Amlodipine 10mg tab 100's",
+    "brand_name": "Lodipex",
+    "unit_id": 13,
+    "price": "2.50"
+  },
+  {
+    "description": "Amlodipine 5mg tab 100's",
+    "brand_name": "Lodipex",
+    "unit_id": 13,
+    "price": "2.50"
+  },
+  {
+    "description": "Amoxicillin 100mg/ml 10ml surpension",
+    "brand_name": "Moxylor",
+    "unit_id": 2,
+    "price": "31.00"
+  },
+  {
+    "description": "Amoxicillin 125mg 60ml suspension",
+    "brand_name": "Moxylor",
+    "unit_id": 2,
+    "price": "0.00"
+  },
+  {
+    "description": "Amoxicillin 250mg/ml 60ml suspension",
+    "brand_name": "Axmel",
+    "unit_id": 2,
+    "price": "53.50"
+  },
+  {
+    "description": "Amoxicillin 250mg mg/5ml,60ml Suspension",
+    "brand_name": null,
+    "unit_id": 2,
+    "price": "0.00"
+  },
+  {
+    "description": "Amoxicillin 500mg Capsule 100's",
+    "brand_name": "Ambimox",
+    "unit_id": 4,
+    "price": "4.00"
+  },
+  {
+    "description": "Ampicillin 250mg vial 10's",
+    "brand_name": "Elcillin",
+    "unit_id": 15,
+    "price": "23.00"
+  },
+  {
+    "description": "Ampicillin 500mg vial 10's",
+    "brand_name": "Giocillin",
+    "unit_id": 15,
+    "price": "55.00"
+  },
+  {
+    "description": "Anti Rabies Vaccine Active 2.5 IU 5's",
+    "brand_name": "Speeda",
+    "unit_id": 15,
+    "price": "922.00"
+  },
+  {
+    "description": "Anti Rabies Vaccine Passive 5 ml",
+    "brand_name": "Abhayrab",
+    "unit_id": 15,
+    "price": "1263.00"
+  },
+  {
+    "description": "Ascorbic Acid 100mg 60ml syr",
+    "brand_name": "Novacee",
+    "unit_id": 2,
+    "price": "43.00"
+  },
+  {
+    "description": "Ascorbic Acid 500mg tab 100's",
+    "brand_name": "Better C",
+    "unit_id": 13,
+    "price": "2.25"
+  },
+  {
+    "description": "Ascorbic Acid 500mg Tab 100's",
+    "brand_name": "Ascorgen",
+    "unit_id": 13,
+    "price": "2.25"
+  },
+  {
+    "description": "Ascorbic Acid Drops 15ml",
+    "brand_name": null,
+    "unit_id": 2,
+    "price": "33.00"
+  },
+  {
+    "description": "Aspirin 80mg tab 100's",
+    "brand_name": "Saphrin",
+    "unit_id": 13,
+    "price": "2.25"
+  },
+  {
+    "description": "Aspirin 100mg EC tab 100's",
+    "brand_name": "Aspec -EC",
+    "unit_id": 13,
+    "price": "15.00"
+  },
+  {
+    "description": "Atorvastatin 40mg tab 100's",
+    "brand_name": "Stalip",
+    "unit_id": 13,
+    "price": "15.00"
+  },
+  {
+    "description": "Atracurium 10mg/ml amp",
+    "brand_name": "Acurium",
+    "unit_id": 1,
+    "price": "68.98"
+  },
+  {
+    "description": "Atropine 1mg/ml amp 10's",
+    "brand_name": "Tropin",
+    "unit_id": 1,
+    "price": "13.00"
+  },
+  {
+    "description": "ATS 1500 amp 10's",
+    "brand_name": null,
+    "unit_id": 1,
+    "price": "175.00"
+  },
+  {
+    "description": "ATS 3000 amp 10's",
+    "brand_name": null,
+    "unit_id": 1,
+    "price": "250.00"
+  },
+  {
+    "description": "Azitromycin 500mg Tab 3's",
+    "brand_name": null,
+    "unit_id": 13,
+    "price": "40.50"
+  },
+  {
+    "description": "Bacillus Clausi 10's",
+    "brand_name": "Tummy Pro",
+    "unit_id": 14,
+    "price": "45.00"
+  },
+  {
+    "description": "Bactidol Gargle 60 ml",
+    "brand_name": null,
+    "unit_id": 2,
+    "price": "120.00"
+  },
+  {
+    "description": "BCG Vaccine 250mg 5 dose amp 5's",
+    "brand_name": null,
+    "unit_id": 1,
+    "price": "531.50"
+  },
+  {
+    "description": "Benzylpenicilin 1M IU 600 mg vial10's (PEN G 1MU)",
+    "brand_name": "Harbipen",
+    "unit_id": 15,
+    "price": "21.00"
+  },
+  {
+    "description": "Benzylpenicilin 5M IU vial 10's",
+    "brand_name": "Harbipen",
+    "unit_id": 15,
+    "price": "22.00"
+  },
+  {
+    "description": "Betahistine 24mg tab 100's",
+    "brand_name": "Vertisaph-24",
+    "unit_id": 13,
+    "price": "29.50"
+  },
+  {
+    "description": "Budesonide Nebule 250mcg,2ml amp 35's",
+    "brand_name": "Respi-saph",
+    "unit_id": 1,
+    "price": "40.50"
+  },
+  {
+    "description": "Bupivacaine HCL 0.5% Spinal Heavy 5mg/ml 4ml 5's",
+    "brand_name": null,
+    "unit_id": 1,
+    "price": "74.50"
+  },
+  {
+    "description": "Calcium Gluconate 10% 1mg/10ml amp",
+    "brand_name": null,
+    "unit_id": 1,
+    "price": "88.00"
+  },
+  {
+    "description": "Captopril 25mg tab 100's",
+    "brand_name": "Captobes",
+    "unit_id": 13,
+    "price": "2.00"
+  },
+  {
+    "description": "Carbocisteine 125mg 60ml bot",
+    "brand_name": null,
+    "unit_id": 2,
+    "price": "35.00"
+  },
+  {
+    "description": "Carbocisteine 250mg 60ml bot",
+    "brand_name": null,
+    "unit_id": 2,
+    "price": "40.00"
+  },
+  {
+    "description": "Carbocisteine 500mg cap 100's",
+    "brand_name": "Mucuzid",
+    "unit_id": 4,
+    "price": "4.00"
+  },
+  {
+    "description": "Carbocisteine 50mg drop 15ml",
+    "brand_name": "Nomocof",
+    "unit_id": 2,
+    "price": "28.00"
+  },
+  {
+    "description": "Carbonate 500/267/160mg 10ml sachet (Gaviscon) 24's",
+    "brand_name": null,
+    "unit_id": 16,
+    "price": "39.00"
+  },
+  {
+    "description": "Carboprost 125mg/0.5ml vial",
+    "brand_name": "Endoprost",
+    "unit_id": 15,
+    "price": "203.00"
+  },
+  {
+    "description": "Carvedilol 6.25mg tab 28's",
+    "brand_name": "Cardoz",
+    "unit_id": 13,
+    "price": "3.00"
+  },
+  {
+    "description": "Carvedilol 25mg tab 30's",
+    "brand_name": "Carvesaph 6.25",
+    "unit_id": 13,
+    "price": "6.00"
+  },
+  {
+    "description": "Cefalexin 100mg Drop10ml",
+    "brand_name": "Diacef",
+    "unit_id": 2,
+    "price": "22.00"
+  },
+  {
+    "description": "Cefalexin 125mg Syrup 60ml",
+    "brand_name": null,
+    "unit_id": 2,
+    "price": "25.00"
+  },
+  {
+    "description": "Cefalexin 250mg Syrup 60ml",
+    "brand_name": null,
+    "unit_id": 2,
+    "price": "31.25"
+  },
+  {
+    "description": "Cefalexin 500mg cap 100's",
+    "brand_name": "Sanceph",
+    "unit_id": 4,
+    "price": "4.50"
+  },
+  {
+    "description": "Cefazolin 1G vial 10's",
+    "brand_name": "Phizolin",
+    "unit_id": 15,
+    "price": "148.00"
+  },
+  {
+    "description": "Cefixime 100mg 60ml",
+    "brand_name": "Cefiixsaph 100",
+    "unit_id": 2,
+    "price": "113.50"
+  },
+  {
+    "description": "Cefixime 200mg tab 30's",
+    "brand_name": "Supraphil 200",
+    "unit_id": 13,
+    "price": "18.00"
+  },
+  {
+    "description": "Cefixime 20mg Drops 10ml",
+    "brand_name": null,
+    "unit_id": 2,
+    "price": "145.00"
+  },
+  {
+    "description": "Cefotaxime 1G vial",
+    "brand_name": null,
+    "unit_id": 15,
+    "price": "1120.00"
+  },
+  {
+    "description": "Ceftriaxone 1g vial 10's",
+    "brand_name": "Peftrin",
+    "unit_id": 15,
+    "price": "190.00"
+  },
+  {
+    "description": "Cefuroxime 500mg Tab 10's",
+    "brand_name": "Cefusaph",
+    "unit_id": 13,
+    "price": "25.50"
+  },
+  {
+    "description": "Cefuroxime 750mg 10 ml vial",
+    "brand_name": "Eroxime",
+    "unit_id": 15,
+    "price": "52.50"
+  },
+  {
+    "description": "Celecoxib 200mg cap 100's",
+    "brand_name": "Emicox",
+    "unit_id": 4,
+    "price": "10.25"
+  },
+  {
+    "description": "Cetirizine 10mg tab 100's",
+    "brand_name": "Saphzine",
+    "unit_id": 13,
+    "price": "2.50"
+  },
+  {
+    "description": "Cetirizine 5mg/ml syr 60ml",
+    "brand_name": null,
+    "unit_id": 12,
+    "price": "74.50"
+  },
+  {
+    "description": "Cinnarizine 25mg tab 100's",
+    "brand_name": "Vertex",
+    "unit_id": 13,
+    "price": "8.00"
+  },
+  {
+    "description": "Ciprofloxacin 500mg tab 100's",
+    "brand_name": "Cyfrox",
+    "unit_id": 13,
+    "price": "5.00"
+  },
+  {
+    "description": "Ciprofloxacin 2mg/ml, 100ml",
+    "brand_name": null,
+    "unit_id": 15,
+    "price": "876.00"
+  },
+  {
+    "description": "Citicoline 1G 4ml Amp 10's",
+    "brand_name": "Citisaph",
+    "unit_id": 1,
+    "price": "300.00"
+  },
+  {
+    "description": "Clindamycin 300mg cap 100's",
+    "brand_name": "Clindagold",
+    "unit_id": 4,
+    "price": "21.00"
+  },
+  {
+    "description": "Clonidine 75mg tab 100's",
+    "brand_name": "Clonisaph-75",
+    "unit_id": 13,
+    "price": "28.00"
+  },
+  {
+    "description": "Clopidogrel 75mg tab 100's",
+    "brand_name": "Saphlopid",
+    "unit_id": 13,
+    "price": "10.00"
+  },
+  {
+    "description": "Cloxacillin 125mg/5ml 60ml",
+    "brand_name": null,
+    "unit_id": 12,
+    "price": "37.00"
+  },
+  {
+    "description": "Cloxacillin 250mg/5ml 60ml",
+    "brand_name": null,
+    "unit_id": 12,
+    "price": "37.00"
+  },
+  {
+    "description": "Cloxacillin 500mg Cap 100's",
+    "brand_name": "Cloxane",
+    "unit_id": 4,
+    "price": "4.45"
+  },
+  {
+    "description": "Co-Amoxiclav 457/5ml 70ml Susp",
+    "brand_name": null,
+    "unit_id": 12,
+    "price": "213.33"
+  },
+  {
+    "description": "Co-Amoxiclav 625mg Tab 14's",
+    "brand_name": null,
+    "unit_id": 13,
+    "price": "9.50"
+  },
+  {
+    "description": "Colchicine 500mg tab 100's",
+    "brand_name": "Goutsaph",
+    "unit_id": 13,
+    "price": "3.00"
+  },
+  {
+    "description": "Cotrimoxazole 400mg/5ml Syr 60 ml",
+    "brand_name": "Diazole",
+    "unit_id": 12,
+    "price": "18.80"
+  },
+  {
+    "description": "Cotrimoxazole 800mg tab 100's",
+    "brand_name": "Combizole",
+    "unit_id": 13,
+    "price": "3.00"
+  },
+  {
+    "description": "D5 0.3 500ml 24's (S.Blue 5% Dextrose 0.3 NaCl)",
+    "brand_name": null,
+    "unit_id": 12,
+    "price": "48.00"
+  },
+  {
+    "description": "D5 0.3 1L 12's (S.Blue 5% Dextrose 0.3 NaCl)",
+    "brand_name": null,
+    "unit_id": 12,
+    "price": "57.00"
+  },
+  {
+    "description": "D5 0.9 1L 12's (Yellow 5% Dx 0.9 SC)",
+    "brand_name": null,
+    "unit_id": 12,
+    "price": "55.00"
+  },
+  {
+    "description": "D5 NSS 1L 12's",
+    "brand_name": null,
+    "unit_id": 12,
+    "price": "55.00"
+  },
+  {
+    "description": "D5 NM 1L 12's (Orange-Balance Multiple in 5% DX- Eurosol-M in D5 water)",
+    "brand_name": null,
+    "unit_id": 12,
+    "price": "49.50"
+  },
+  {
+    "description": "D5 WATER 500ml 24's (Red 5% Dx in H2O)",
+    "brand_name": null,
+    "unit_id": 12,
+    "price": "55.50"
+  },
+  {
+    "description": "D5050 20ml vial 20's ( Orange -Dextrose)",
+    "brand_name": null,
+    "unit_id": 15,
+    "price": "95.00"
+  },
+  {
+    "description": "D5050 50ml 20's",
+    "brand_name": null,
+    "unit_id": 15,
+    "price": "-  "
+  },
+  {
+    "description": "D5IMB 500ml 24's (Violet Balance Multiple of 5% Dx)",
+    "brand_name": null,
+    "unit_id": 12,
+    "price": "120.00"
+  },
+  {
+    "description": "D5LRS 1L 12's (Pink 5% in Lactated ringer)",
+    "brand_name": null,
+    "unit_id": 2,
+    "price": "53.50"
+  },
+  {
+    "description": "D5LRS 500ml 24's (Pink 5% in Lactated ringer)",
+    "brand_name": null,
+    "unit_id": 2,
+    "price": "66.50"
+  },
+  {
+    "description": "Dexamethasone 4mg/2ml amp 10's",
+    "brand_name": "Dexamax",
+    "unit_id": 1,
+    "price": "38.00"
+  },
+  {
+    "description": "Diazepam 5mg tab",
+    "brand_name": "Valium",
+    "unit_id": 13,
+    "price": "9.50"
+  },
+  {
+    "description": "Diazepam 10mg amp",
+    "brand_name": null,
+    "unit_id": 1,
+    "price": "91.50"
+  },
+  {
+    "description": "Dicycloverine 10 mg 60ml syrup",
+    "brand_name": "Gasaide",
+    "unit_id": 2,
+    "price": "41.00"
+  },
+  {
+    "description": "Digoxin 500mcg 2ml amp 10's",
+    "brand_name": "Dixin",
+    "unit_id": 1,
+    "price": "200.00"
+  },
+  {
+    "description": "Diphenhydramin 12.5mg syr 60ml",
+    "brand_name": "Histazyn",
+    "unit_id": 2,
+    "price": "49.00"
+  },
+  {
+    "description": "Diphenhydramin 50mg/1ml amp 10's",
+    "brand_name": "Hyphen",
+    "unit_id": 1,
+    "price": "56.50"
+  },
+  {
+    "description": "Diphenhydramin Syr 60ml",
+    "brand_name": null,
+    "unit_id": 2,
+    "price": "0.00"
+  },
+  {
+    "description": "Dobutamine 250mg/20ml  vial",
+    "brand_name": "Dobumean",
+    "unit_id": 15,
+    "price": "272.50"
+  },
+  {
+    "description": "Domperidone 10mg Tab 100's",
+    "brand_name": "Gastrifar",
+    "unit_id": 13,
+    "price": "8.00"
+  },
+  {
+    "description": "Dopamine 200mg/5ml Amp 10's",
+    "brand_name": "Dopabas",
+    "unit_id": 1,
+    "price": "129.00"
+  },
+  {
+    "description": "Enoxparin 400iu  0.4ml amp",
+    "brand_name": "Siti Enox 40",
+    "unit_id": 1,
+    "price": "493.00"
+  },
+  {
+    "description": "Epinephrine 1mg 1 ml amp  10's",
+    "brand_name": null,
+    "unit_id": 1,
+    "price": "47.50"
+  },
+  {
+    "description": "Erythromycin Eye Oint 0.5%, 3.5G",
+    "brand_name": null,
+    "unit_id": 14,
+    "price": "81.00"
+  },
+  {
+    "description": "FE SO4 Drops 15mg/15ml",
+    "brand_name": "Ferlum",
+    "unit_id": 2,
+    "price": "20.50"
+  },
+  {
+    "description": "FeSo4 60ml",
+    "brand_name": "Ferlum",
+    "unit_id": 2,
+    "price": "18.50"
+  },
+  {
+    "description": "Febuxostat 40mg tab 30's",
+    "brand_name": "Febuxosaph-40",
+    "unit_id": 13,
+    "price": "16.00"
+  },
+  {
+    "description": "Fenofibrate 200mg cap 100's",
+    "brand_name": "Fenosol",
+    "unit_id": 4,
+    "price": "13.00"
+  },
+  {
+    "description": "Fleet Enema 133ml 1gg",
+    "brand_name": null,
+    "unit_id": 2,
+    "price": "441.00"
+  },
+  {
+    "description": "Folic Acid 5mg  cap 100's",
+    "brand_name": "Foliz",
+    "unit_id": 4,
+    "price": "3.50"
+  },
+  {
+    "description": "Furosemide 10mg/ml 2ml amp 10's",
+    "brand_name": "Furoxide",
+    "unit_id": 1,
+    "price": "12.00"
+  },
+  {
+    "description": "Furosemide 20mg/2ml amp 10's",
+    "brand_name": null,
+    "unit_id": 1,
+    "price": "12.00"
+  },
+  {
+    "description": "Furosemide 40mg Tab 100's",
+    "brand_name": "Pisamor",
+    "unit_id": 13,
+    "price": "2.00"
+  },
+  {
+    "description": "Gentamicin 40mg/2ml amp 10's",
+    "brand_name": null,
+    "unit_id": 1,
+    "price": "8.00"
+  },
+  {
+    "description": "Glycerin Suppository 2.5g 12's",
+    "brand_name": null,
+    "unit_id": 2,
+    "price": "30.00"
+  },
+  {
+    "description": "Haloperidol 50MG/ amp",
+    "brand_name": null,
+    "unit_id": 1,
+    "price": "496.00"
+  },
+  {
+    "description": "Hepatitis Vaccine 1m/dose",
+    "brand_name": "Genvac B",
+    "unit_id": 15,
+    "price": "224.00"
+  },
+  {
+    "description": "Heparin 5ml vial",
+    "brand_name": "Heprin",
+    "unit_id": 15,
+    "price": "172.79"
+  },
+  {
+    "description": "HNBB 10mg tab 100's (Hyoscine 10 mg)",
+    "brand_name": "Hyosaph",
+    "unit_id": 13,
+    "price": "4.50"
+  },
+  {
+    "description": "HNBB 20mg/ml 1 ml amp 10's",
+    "brand_name": "Aduscine",
+    "unit_id": 1,
+    "price": "24.50"
+  },
+  {
+    "description": "Hydralazine 20mg/ml, 1ml amp 10's",
+    "brand_name": "Sapharin",
+    "unit_id": 1,
+    "price": "37.50"
+  },
+  {
+    "description": "Hydrocortisone 100mg vial 10's",
+    "brand_name": null,
+    "unit_id": 15,
+    "price": "83.00"
+  },
+  {
+    "description": "Hydrocortisone 250mg Vial 10's",
+    "brand_name": "Hycort",
+    "unit_id": 15,
+    "price": "104.00"
+  },
+  {
+    "description": "Insuline Glargine 10ml vial",
+    "brand_name": "Insuget-R",
+    "unit_id": 15,
+    "price": "1650.00"
+  },
+  {
+    "description": "Iron Sucrose 20mg/ml, 5ml amp",
+    "brand_name": "Ferose",
+    "unit_id": 1,
+    "price": "220.00"
+  },
+  {
+    "description": "Isoflurane 100ml Inhalant",
+    "brand_name": "Isorane",
+    "unit_id": 2,
+    "price": "1571.00"
+  },
+  {
+    "description": "Isordi 2mg SL 100's",
+    "brand_name": null,
+    "unit_id": 13,
+    "price": "25.00"
+  },
+  {
+    "description": "Isosorbide Dinitrate 5mg SL tab 100's",
+    "brand_name": "Isordil",
+    "unit_id": 13,
+    "price": "13.00"
+  },
+  {
+    "description": "Isosorbide Mononitrate 60mg tab 100's",
+    "brand_name": "Saphorbide",
+    "unit_id": 13,
+    "price": "5.00"
+  },
+  {
+    "description": "Ketorolac 30mg ml 1 ml  amp 10's",
+    "brand_name": null,
+    "unit_id": 1,
+    "price": "14.50"
+  },
+  {
+    "description": "Levitiracepam 500mg tab 100's",
+    "brand_name": "Lepixa 500",
+    "unit_id": 13,
+    "price": "21.50"
+  },
+  {
+    "description": "Levofloxacin 500mg tab 30's",
+    "brand_name": null,
+    "unit_id": 13,
+    "price": "21.00"
+  },
+  {
+    "description": "Lidocaine 2% Solution 20mg/ml 1g/50ml",
+    "brand_name": "Locaine",
+    "unit_id": 2,
+    "price": "250.00"
+  },
+  {
+    "description": "Lidocaine 2% 5ml poly amp 50's",
+    "brand_name": null,
+    "unit_id": 1,
+    "price": "26.50"
+  },
+  {
+    "description": "Lidocaine 50ml,20mg amp",
+    "brand_name": "Anestin",
+    "unit_id": 1,
+    "price": "250.00"
+  },
+  {
+    "description": "Lidocaine HCL 10% Spray, 50ml",
+    "brand_name": "Xylocaine Pump Spray 100mg/ml/10 mg/spray dose",
+    "unit_id": 2,
+    "price": "0.00"
+  },
+  {
+    "description": "Losartan 50mg tab 100's",
+    "brand_name": null,
+    "unit_id": 13,
+    "price": "5.00"
+  },
+  {
+    "description": "Magnesium Sulfate 1g/20ml",
+    "brand_name": null,
+    "unit_id": 1,
+    "price": "86.50"
+  },
+  {
+    "description": "Magnesium Sulfate 250mg/ml 10ml amp 10's",
+    "brand_name": null,
+    "unit_id": 1,
+    "price": "86.50"
+  },
+  {
+    "description": "Mannitol 20% Solution 500ml 24's",
+    "brand_name": null,
+    "unit_id": 2,
+    "price": "106.50"
+  },
+  {
+    "description": "Mefenamic Acid 500mg cap 100's",
+    "brand_name": null,
+    "unit_id": 4,
+    "price": "18.50"
+  },
+  {
+    "description": "Mefenamic Acid 50mg Syrup 60ml",
+    "brand_name": "Infamix",
+    "unit_id": 2,
+    "price": "35.00"
+  },
+  {
+    "description": "Metformin 500mg tab 100's",
+    "brand_name": null,
+    "unit_id": 13,
+    "price": "4.00"
+  },
+  {
+    "description": "Methylergometrine 200mcg 1ml amp 50's",
+    "brand_name": "Cethergo",
+    "unit_id": 1,
+    "price": "39.00"
+  },
+  {
+    "description": "Methylprednisolone 16mg tab 100's",
+    "brand_name": "Methyden",
+    "unit_id": 13,
+    "price": "11.50"
+  },
+  {
+    "description": "Methylprednisolone 4mg tab 30's",
+    "brand_name": "Prednivex 4",
+    "unit_id": 13,
+    "price": "8.50"
+  },
+  {
+    "description": "Metoclopramide 10mg 2ml amp 20's",
+    "brand_name": "Metoclon",
+    "unit_id": 1,
+    "price": "4.50"
+  },
+  {
+    "description": "Metoclopramide 5mg/ml 2ml amp 10's",
+    "brand_name": "Meclop",
+    "unit_id": 1,
+    "price": "17.00"
+  },
+  {
+    "description": "Metoclopramide 5mg/ml syrup 60ml",
+    "brand_name": null,
+    "unit_id": 2,
+    "price": "23.00"
+  },
+  {
+    "description": "Metronidazole 125 mg Syrup 60ml",
+    "brand_name": null,
+    "unit_id": 2,
+    "price": "24.00"
+  },
+  {
+    "description": "Metronidazole 500mg Tab 100's",
+    "brand_name": null,
+    "unit_id": 13,
+    "price": "10.50"
+  },
+  {
+    "description": "Metronidazole 5mg/ml 100MK Vial",
+    "brand_name": null,
+    "unit_id": 15,
+    "price": "34.00"
+  },
+  {
+    "description": "Montelukast 10mg tab 100's",
+    "brand_name": "Nova Kast-10",
+    "unit_id": 13,
+    "price": "10.00"
+  },
+  {
+    "description": "Morphine Sulfate 10mg tab",
+    "brand_name": null,
+    "unit_id": 13,
+    "price": "60.00"
+  },
+  {
+    "description": "Multi Vitamin 100mg Cap 100's",
+    "brand_name": null,
+    "unit_id": 4,
+    "price": "3.00"
+  },
+  {
+    "description": "Multi Vitamins Syrup 6mlL",
+    "brand_name": "Tovit",
+    "unit_id": 12,
+    "price": "64.50"
+  },
+  {
+    "description": "Mupirocin Ointment 5 grm",
+    "brand_name": "Mupirex",
+    "unit_id": 14,
+    "price": "108.50"
+  },
+  {
+    "description": "Nebivolol 5mg tab 100's",
+    "brand_name": "Nebigo",
+    "unit_id": 13,
+    "price": "10.00"
+  },
+  {
+    "description": "Neostigmine 500mcg/ml, 1ml",
+    "brand_name": null,
+    "unit_id": 1,
+    "price": "94.00"
+  },
+  {
+    "description": "Nicardipine 10mg /ml 2ml amp",
+    "brand_name": null,
+    "unit_id": 1,
+    "price": "0.00"
+  },
+  {
+    "description": "Nicardipine 1mg/ml 10 ml amp",
+    "brand_name": null,
+    "unit_id": 1,
+    "price": "379.00"
+  },
+  {
+    "description": "Norepinephrine 4mg 4 ml amp",
+    "brand_name": null,
+    "unit_id": 1,
+    "price": "245.00"
+  },
+  {
+    "description": "NTG Patch 10's ( Nitroderm ITS)",
+    "brand_name": null,
+    "unit_id": 7,
+    "price": "170.00"
+  },
+  {
+    "description": "Omeprazole 40mg cap 100's",
+    "brand_name": null,
+    "unit_id": 4,
+    "price": "45.00"
+  },
+  {
+    "description": "Omeprazole 40mg vial 10's",
+    "brand_name": null,
+    "unit_id": 15,
+    "price": "177.25"
+  },
+  {
+    "description": "Oral Rehydration Salt 2.17 G 25's",
+    "brand_name": "Ambilyte",
+    "unit_id": 11,
+    "price": "4.00"
+  },
+  {
+    "description": "Oxacillin Na 500mg Vial",
+    "brand_name": "Goxa IV",
+    "unit_id": 15,
+    "price": "71.00"
+  },
+  {
+    "description": "Oxytocin 10iu 1ml amp  10's",
+    "brand_name": null,
+    "unit_id": 1,
+    "price": "124.00"
+  },
+  {
+    "description": "Pantoprazole 40mg Vial",
+    "brand_name": null,
+    "unit_id": 15,
+    "price": "280.00"
+  },
+  {
+    "description": "Pantoprazole + Domperidone cap 30's",
+    "brand_name": null,
+    "unit_id": 4,
+    "price": "49.00"
+  },
+  {
+    "description": "Paracetamol 150/2 ml amp 10's",
+    "brand_name": "Amcetam",
+    "unit_id": 1,
+    "price": "0.00"
+  },
+  {
+    "description": "Paracetamol 300mg/ amp 2ml 10's",
+    "brand_name": "Amcetam",
+    "unit_id": 1,
+    "price": "15.00"
+  },
+  {
+    "description": "Paracetamol 125 Syrup 60ml",
+    "brand_name": null,
+    "unit_id": 2,
+    "price": "17.50"
+  },
+  {
+    "description": "Paracetamol 250 Syrup 60ml",
+    "brand_name": null,
+    "unit_id": 2,
+    "price": "25.25"
+  },
+  {
+    "description": "Paracetamol drops 100mg  15ml",
+    "brand_name": "4Fever",
+    "unit_id": 2,
+    "price": "24.50"
+  },
+  {
+    "description": "Paracetamol 100mg Syrup 15ml",
+    "brand_name": "Novamol",
+    "unit_id": 2,
+    "price": "17.50"
+  },
+  {
+    "description": "Paracetamol 500mg tab 100's",
+    "brand_name": null,
+    "unit_id": 13,
+    "price": "1.50"
+  },
+  {
+    "description": "Phenobarbital 30mg tab",
+    "brand_name": null,
+    "unit_id": 13,
+    "price": "4.00"
+  },
+  {
+    "description": "Phenytoin 100mg/ml amp",
+    "brand_name": null,
+    "unit_id": 1,
+    "price": "366.50"
+  },
+  {
+    "description": "Phytomenadion 10mg/ml 1ml amp 5's (Vitamin K 10mg)",
+    "brand_name": null,
+    "unit_id": 1,
+    "price": "35.00"
+  },
+  {
+    "description": "PLRS 1L 12's (Blue - lactated ringer)",
+    "brand_name": null,
+    "unit_id": 2,
+    "price": "46.00"
+  },
+  {
+    "description": "PNSS 1L 12's (Green 0.9 NaCl)",
+    "brand_name": null,
+    "unit_id": 2,
+    "price": "50.00"
+  },
+  {
+    "description": "PNSS 500ml 24's (Green 0.9 NaCl)",
+    "brand_name": null,
+    "unit_id": 2,
+    "price": "55.00"
+  },
+  {
+    "description": "PNSS-Irrigating Solution 50ml 20's",
+    "brand_name": null,
+    "unit_id": 15,
+    "price": "31.12"
+  },
+  {
+    "description": "PNSS-Irrigating Solution 1L 12's (Sodium Chloride)",
+    "brand_name": null,
+    "unit_id": 2,
+    "price": "51.50"
+  },
+  {
+    "description": "Potassium Chloride 20ml vial 5's",
+    "brand_name": "Kalimex",
+    "unit_id": 15,
+    "price": "38.00"
+  },
+  {
+    "description": "Prednisone 20mg tab 100's",
+    "brand_name": "Prend",
+    "unit_id": 13,
+    "price": "5.00"
+  },
+  {
+    "description": "Propofol 10mg/ml 50 ml",
+    "brand_name": null,
+    "unit_id": 15,
+    "price": "472.00"
+  },
+  {
+    "description": "Ranitidine 25mg/ml 2ml amp 10's",
+    "brand_name": "Zentek",
+    "unit_id": 1,
+    "price": "160.00"
+  },
+  {
+    "description": "Regular Insulin Human",
+    "brand_name": "Insuget",
+    "unit_id": 15,
+    "price": "441.50"
+  },
+  {
+    "description": "Rosuvastatin 10mg tab 100's",
+    "brand_name": null,
+    "unit_id": 13,
+    "price": "4.25"
+  },
+  {
+    "description": "Rosuvastatin 20mg tab 100's",
+    "brand_name": null,
+    "unit_id": 13,
+    "price": "5.50"
+  },
+  {
+    "description": "Salbutamol + Guafenisin 1mg/50mg syr 60ml",
+    "brand_name": "Asmair",
+    "unit_id": 2,
+    "price": "35.00"
+  },
+  {
+    "description": "Salbutamol + Ipratronium Bromide 200mcg/1mg 2.5 ml amp 30's",
+    "brand_name": null,
+    "unit_id": 1,
+    "price": "19.00"
+  },
+  {
+    "description": "Salbutamol 2mg 60ml Syr",
+    "brand_name": "VNZ",
+    "unit_id": 2,
+    "price": "28.00"
+  },
+  {
+    "description": "Salbutamol 2mg Tab 100's",
+    "brand_name": "Bioxal",
+    "unit_id": 13,
+    "price": "4.00"
+  },
+  {
+    "description": "Salbutamol Nebule 1mg 2.5 ml amp 35's",
+    "brand_name": null,
+    "unit_id": 1,
+    "price": "8.00"
+  },
+  {
+    "description": "Salbutamol Sulfate Broncolin 30's",
+    "brand_name": null,
+    "unit_id": 1,
+    "price": "0.00"
+  },
+  {
+    "description": "Silver Sulfadiazine 20grms",
+    "brand_name": null,
+    "unit_id": 14,
+    "price": "62.00"
+  },
+  {
+    "description": "Simeticon Chewable (Kremil S)",
+    "brand_name": null,
+    "unit_id": 8,
+    "price": "35.00"
+  },
+  {
+    "description": "Sodium Bicarbonate 1MEQ/ml, 50ml",
+    "brand_name": null,
+    "unit_id": 8,
+    "price": "0.00"
+  },
+  {
+    "description": "Sodium Bicarbonate 650mg Tab 100's",
+    "brand_name": "Supracid",
+    "unit_id": 13,
+    "price": "2.50"
+  },
+  {
+    "description": "Sodium Bicarbonate 84mg/ml 20ml amp 50's",
+    "brand_name": "Bicarbisaph",
+    "unit_id": 1,
+    "price": "116.50"
+  },
+  {
+    "description": "Sterile Water 20ml 20's",
+    "brand_name": null,
+    "unit_id": 15,
+    "price": "24.00"
+  },
+  {
+    "description": "Sterile Water 50 ml vial 20's",
+    "brand_name": null,
+    "unit_id": 15,
+    "price": "101.00"
+  },
+  {
+    "description": "Tetanus Toxoid 0.5ml vial 10's",
+    "brand_name": null,
+    "unit_id": 15,
+    "price": "140.00"
+  },
+  {
+    "description": "Tramadol 50mg 2ml amp 10's",
+    "brand_name": null,
+    "unit_id": 1,
+    "price": "25.00"
+  },
+  {
+    "description": "Tramadol 50mg cap 100's",
+    "brand_name": "Aptradol",
+    "unit_id": 4,
+    "price": "9.50"
+  },
+  {
+    "description": "Tranexamic 100mg 5ml Amp 5's",
+    "brand_name": null,
+    "unit_id": 1,
+    "price": "72.00"
+  },
+  {
+    "description": "Tranexamic 500mg cap 100's",
+    "brand_name": null,
+    "unit_id": 4,
+    "price": "27.00"
+  },
+  {
+    "description": "Trimetazidine 35mg Tab 30's",
+    "brand_name": null,
+    "unit_id": 13,
+    "price": "8.25"
+  },
+  {
+    "description": "Vit B Complex 100mg/3ml amp 10's",
+    "brand_name": "Neurobe",
+    "unit_id": 1,
+    "price": "25.50"
+  },
+  {
+    "description": "Vit B Complex Tab 100's",
+    "brand_name": null,
+    "unit_id": 13,
+    "price": "6.00"
+  },
+  {
+    "description": "Zinc 15mg/ml, 15ml",
+    "brand_name": null,
+    "unit_id": 8,
+    "price": "46.00"
+  },
+  {
+    "description": "Zinc Syrup 60ml",
+    "brand_name": "Immunosaph",
+    "unit_id": 2,
+    "price": "61.00"
+  }
+]

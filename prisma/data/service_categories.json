@@ -1,0 +1,14 @@
+[
+  { "name": "General Ward" },
+  { "name": "Labor and Delivery" },
+  { "name": "Emergency Room Procedures" },
+  { "name": "OPD" },
+  { "name": "Other Hospital Fees" },
+  { "name": "Equipment Use" },
+  { "name": "RADIOLOGY" },
+  { "name": "Clinical Laboratory - HERMATOLOGY" },
+  { "name": "Clinical Laboratory - MICROSPY" },
+  { "name": "Clinical Laboratory - MICROBIOLOGY" },
+  { "name": "Clinical Laboratory - SEROLOGY" },
+  { "name": "Clinical Laboratory - CHEMISTRY" }
+]

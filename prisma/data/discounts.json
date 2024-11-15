@@ -1,0 +1,6 @@
+[
+  { "type": "Resident", "percentage": 10 },
+  { "type": "Person With Disability (PWD)", "percentage": 20 },
+  { "type": "Senior Citizen", "percentage": 20 },
+  { "type": "Solo Parent", "percentage": 20 }
+]

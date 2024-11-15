@@ -1,0 +1,17 @@
+[
+  { "type": "amp" },
+  { "type": "bot" },
+  { "type": "box" },
+  { "type": "cap" },
+  { "type": "doz" },
+  { "type": "pack" },
+  { "type": "patch" },
+  { "type": "pc" },
+  { "type": "pcs" },
+  { "type": "roll" },
+  { "type": "sachet" },
+  { "type": "syrup" },
+  { "type": "tab" },
+  { "type": "tube" },
+  { "type": "vial" }
+]
