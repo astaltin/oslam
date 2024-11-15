@@ -60,6 +60,31 @@ const prisma = new PrismaClient().$extends({
         }
       },
     },
+    billing: {
+      async create({ args, query, model, operation }) {
+        const collName = snakeCase(pluralize(model));
+        const seqId = `${camelCase(model)}Id`;
+
+        const data = args.data as DataValue;
+
+        try {
+          const doc = await prisma.$transaction(async (prisma) => {
+            const counter = await getNextSequenceValue(collName, prisma);
+            data[seqId] = counter;
+
+            data.referenceNumber = Number.parseInt(
+              `${new Date().getFullYear()}${data.patientId}${counter}`,
+            );
+
+            return query(args);
+          });
+
+          return doc;
+        } catch (error) {
+          handlePrismaError(error, collName, operation);
+        }
+      },
+    },
   },
 });
 
